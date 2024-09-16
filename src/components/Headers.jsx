@@ -5,9 +5,15 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import "./Head.css";
+import { FaBars, FaTimes } from "react-icons/fa"; // Import icons
 
 function Headers() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen); // Toggle menu state
+  };
 
   return (
     <Navbar
@@ -16,8 +22,21 @@ function Headers() {
       fixed="top"
       className="header_main montaga-regulars">
       <Container>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={toggleMenu}>
+          {/* Show cross icon if menu is open, otherwise show hamburger icon */}
+          {menuOpen ? (
+            <FaTimes size={30} color="white" />
+          ) : (
+            <FaBars size={30} color="white" />
+          )}
+        </Navbar.Toggle>
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className={menuOpen ? "show" : ""}>
           <Nav className="me-auto">
             <Nav.Link className="header__text">
               <Link
