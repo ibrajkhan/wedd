@@ -1,0 +1,133 @@
+.header_img_whatsApp {
+  width: 90px !important;
+}
+.header_text {
+  /* background-color: transparent; */
+  height: 14vh !important;
+  padding-left: 80px;
+  /* overflow: hidden; */
+  /* margin: 0px !important;
+  padding: 0px !important; */
+}
+.montaga-regular {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.hell {
+  color: white !important;
+  margin-right: 10px;
+  font-size: 17px;
+  transition: all 0.4s ease; /* Smooth transition for all properties */
+}
+
+.hell:hover {
+  border-radius: 15px;
+  background-color: #382037;
+  border: 1px solid #ffe1a6;
+  transform: scale(1.05); /* Slightly scale up the element */
+}
+
+.custom-dropdown .dropdown-toggle {
+  color: white !important;
+  font-size: 17px;
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color: #382037 !important;
+  font-size: 17px;
+}
+
+.custom-dropdown-item {
+  background-color: #382037 !important;
+  color: white !important;
+  font-size: 17px;
+}
+
+.custom-dropdown-item:hover {
+  /* color: white !important; */
+  color: #9a7f5e !important;
+  font-size: 17px;
+}
+
+@media (max-width: 760px) {
+  .hell {
+    margin-right: 0px;
+    font-size: 13px;
+  }
+  .custom-dropdown .dropdown-toggle {
+    font-size: 11px; /* Adjust font size for dropdown title */
+    margin-top: 6vh;
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    font-size: 13px; /* Adjust font size for dropdown title */
+    margin: 0px !important ;
+    padding: 0px !important;
+  }
+
+  .custom-dropdown-item {
+    font-size: 13px; /* Adjust font size for dropdown items */
+  }
+
+  .custom-dropdown-item:hover {
+    font-size: 13px; /* Keep hover text size consistent */
+  }
+  .header_text {
+    /* background-color: transparent; */
+    height: 10vh !important;
+
+    padding-left: 10px;
+    /* overflow: hidden; */
+    /* margin: 0px !important;
+      padding: 0px !important; */
+  }
+}
+@media (max-width: 450px) {
+  .hell {
+    margin-right: 0px;
+    font-size: 11px;
+    margin-top: 2vh;
+    /* margin-bottom: px; */
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    font-size: 11px; /* Adjust font size for dropdown title */
+    margin-top: 2vh;
+  }
+
+  .custom-dropdown-item {
+    font-size: 11px; /* Adjust font size for dropdown items */
+  }
+
+  .custom-dropdown-item:hover {
+    font-size: 11px; /* Keep hover text size consistent */
+  }
+  .header_text {
+    /* background-color: transparent; */
+    height: 8vh !important;
+  }
+}
+@media (max-width: 400px) {
+  .hell {
+    margin-right: 0px;
+    font-size: 10px;
+    /* margin-bottom: 30px; */
+    /* height: 8vh !important; */
+  }
+  .custom-dropdown .dropdown-toggle {
+    font-size: 11px; /* Adjust font size for dropdown title */
+    margin-top: 2vh;
+  }
+
+  .header_text {
+    padding-left: 0px;
+  }
+  /* .header_sec {
+    height: 8vh !important;
+  } */
+  span {
+    display: none;
+  }
+}

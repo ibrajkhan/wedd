@@ -1,0 +1,21 @@
+.custom-card {
+  background-color: #fff; /* White background for the card */
+  padding: 15px; /* Padding around the image */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the card */
+  width: 100%; /* Full width */
+  max-width: 350px; /* Max width for the card */
+  margin: 0 auto; /* Center the card */
+}
+
+.card-image-container {
+  padding: 10px;
+  background-color: #fff; /* Ensures a white frame around the image */
+}
+
+.card-image-container img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+  width: 100%; /* Ensures the image is responsive */
+  height: auto;
+}

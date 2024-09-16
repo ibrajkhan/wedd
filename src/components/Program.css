@@ -1,0 +1,14 @@
+.programs {
+  background-color: #382037;
+  padding: 30px 30px;
+  text-align: center;
+  color: white;
+}
+.montaga-regular {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container__row {
+  padding: 10px 10px;
+}

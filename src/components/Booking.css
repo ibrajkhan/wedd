@@ -1,0 +1,27 @@
+.booking__form {
+  background-color: #382037;
+  color: white;
+  padding-top: 10vh;
+  background-image: url("../assets/Image/Pattern.svg");
+  /* border-top: 2px solid #caa65a; */
+  background-size: cover; /* Scales the image to cover the entire element */
+  background-size: contain; /* Scales the image to fit within the element without cropping */
+}
+.montaga-regulars {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.booking__form > h3 {
+  text-align: center;
+  padding: 4% 0% 0% 0%;
+}
+.text_field {
+  padding-bottom: 25px;
+}
+@media (max-width: 760px) {
+  .booking__form {
+    padding-top: 10vh;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,28 @@
+.Family {
+  background-color: #382037;
+  background-image: url("../assets/Image/Pattern.svg");
+}
+.content_family {
+  /* background-color: #382037; */
+  height: 100vh;
+  padding-top: 20vh;
+}
+#familyC {
+}
+
+.button-sub {
+  background-color: #ba6c45;
+  color: white;
+  border: none;
+}
+.button-sub:hover {
+  background-color: #97502d;
+}
+.montaga-regulars {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ki {
+  margin-right: 5%;
+}

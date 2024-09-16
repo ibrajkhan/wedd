@@ -1,0 +1,308 @@
+.program {
+  background-color: #382037;
+  padding: 20px 0px 20px 0px;
+  overflow-x: hidden !important;
+  /* scrollbar-width: none !important; */
+}
+.montaga-regular {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color: #2b1105; */
+}
+.container__text {
+  background-color: White;
+}
+.main_text {
+  color: white;
+  padding-bottom: 30px;
+  margin-left: 4%;
+}
+.icon__section {
+  padding-bottom: 20px;
+}
+.ProgramText {
+  color: #9a7f5e;
+  font-size: 20px;
+  /* padding: 5% 2% 2% 2%; */
+}
+.icon_img {
+  width: 40px;
+  /* background-color: background: #C4A988; */
+}
+.engagement {
+  margin-left: 18%;
+}
+.mehendi {
+  margin-left: 24%;
+}
+.cocktail {
+  margin-left: 20%;
+}
+.haldi {
+  margin-left: 5%;
+}
+.wedding {
+  margin-right: 10%;
+}
+.program_img {
+  display: block;
+}
+.program_img_small {
+  display: none;
+}
+.ProgramText:hover {
+  background-color: #382037;
+}
+
+/* .custom-tabs .nav-link {
+  font-weight: bold;
+  color: #9a7f5e !important;
+}
+
+.custom-tabs .nav-link.active {
+  color: #9a7f5e !important;
+}
+
+.custom-tabs .nav-link:hover {
+  color: #9a7f5e !important;
+} */
+
+.map {
+  background-color: #382037;
+  padding: 2% 2%;
+}
+.hotel_map {
+  width: 100%;
+  height: 300px;
+}
+.map_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.help {
+  color: white;
+  /* color: #9a7f5e; */
+}
+
+/* mhhhhh  tabs*/
+
+.custom-tabs .nav-tabs {
+  /* background-color: white; */
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: space-between; /* Distribute tabs evenly */
+  overflow-x: auto; /* Allow scrolling if necessary on smaller screens */
+}
+
+.custom-tabs .nav-item {
+  flex-grow: 1; /* Allow tabs to grow and fill available space */
+  text-align: center; /* Center text inside tabs */
+}
+
+.custom-tabs .nav-link {
+  font-weight: bold;
+  color: #9a7f5e !important; /* Normal (inactive) tab color */
+  flex-shrink: 1; /* Allow shrinking on smaller screens */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+/* Previous Tab */
+.custom-tabs .nav-link.active {
+  color: #9a7f5e !important;
+}
+
+.custom-tabs .nav-link:hover {
+  color: #9a7f5e !important;
+}
+.bannerbox {
+  background-color: #382037;
+}
+/* helo Tab new Tabs currently using */
+
+.custom-tabs .nav-tabs {
+  /* background-color: white; Entire Tab background set to white */
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: space-between; /* Distribute tabs evenly */
+  overflow-x: auto; /* Allow scrolling if necessary on smaller screens */
+}
+
+.custom-tabs .nav-item {
+  flex-grow: 1; /* Allow tabs to grow and fill available space */
+  text-align: center; /* Center text inside tabs */
+}
+
+.custom-tabs .nav-link {
+  font-weight: bold;
+  color: #9a7f5e !important; /* Normal (inactive) tab color */
+  flex-shrink: 1; /* Allow shrinking on smaller screens */
+  padding: 10px; /* Adjust padding as needed */
+  /* background-color: white; Default background for all tabs */
+  /* border-radius: 0 !important; Remove rounded corners */
+}
+
+.custom-tabs .nav-link.active {
+  color: #9a7f5e !important;
+  /* border-radius: 0 !important; Ensure active tabs also have no rounded corners */
+}
+
+.custom-tabs .nav-link.active.home {
+  background-color: #1e2a55; /* First tab active background */
+}
+
+.custom-tabs .nav-link.active.profile {
+  background-color: #e9fbff; /* Second tab active background */
+}
+
+.custom-tabs .nav-link.active.Mehendi {
+  background-color: #fffbf3; /* Third tab active background */
+}
+
+.custom-tabs .nav-link.active.Haldi {
+  background-color: #fffce8; /* Fourth tab active background */
+}
+
+.custom-tabs .nav-link.active.Wedding {
+  background-color: #0f1931; /* Fifth tab active background */
+}
+
+/* Optional: Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .custom-tabs .nav-link {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .engagement {
+    margin-left: 35%;
+  }
+  .mehendi {
+    margin-left: 50%;
+  }
+  .cocktail {
+    margin-left: 40%;
+  }
+  .haldi {
+    margin-left: 10%;
+  }
+  .wedding {
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 950px) {
+  .hotel_map {
+    width: 100%;
+    height: 200px;
+  }
+  .mehendi {
+    margin-left: 40%;
+  }
+  .cocktail {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 760px) {
+  .hotel_map {
+    width: 100%;
+    height: 180px;
+  }
+  .help {
+    padding: 20px 0px 0px 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .booking_button {
+    margin-top: 20px;
+  }
+  .map_text {
+    padding-bottom: 20px;
+  }
+  .mehendi {
+    margin-left: 54%;
+  }
+  .cocktail {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 450px) {
+  .help {
+    font-size: 18px;
+  }
+  .custom-tabs .nav-link {
+    font-size: 11px;
+    padding: 6px;
+  }
+  .hotel_map {
+    width: 100%;
+    height: 110px;
+  }
+  .program_img {
+    display: none;
+  }
+  .program_img_small {
+    display: block;
+  }
+  .icon_img {
+    width: 25px;
+  }
+  .engagement {
+    margin-left: 50%;
+  }
+  .mehendi {
+    margin-left: 60%;
+  }
+  .cocktail {
+    margin-left: 50%;
+  }
+  .haldi {
+    margin-left: 13%;
+  }
+  .wedding {
+    margin-right: 30%;
+  }
+  .main_text {
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 7%;
+  }
+}
+
+@media (max-width: 566px) {
+  .mehendi {
+    margin-left: 60%;
+  }
+  .cocktail {
+    margin-left: 51%;
+  }
+}
+@media (max-width: 420px) {
+  .icon__section {
+    padding-bottom: 10px;
+  }
+  .icon_img {
+    width: 25px;
+  }
+  .engagement {
+    margin-left: 60%;
+  }
+  .mehendi {
+    margin-left: 68%;
+  }
+  .cocktail {
+    margin-left: 60%;
+  }
+  .haldi {
+    margin-left: 15%;
+  }
+  .wedding {
+    margin-right: 35%;
+  }
+}

@@ -1,0 +1,17 @@
+.car_height {
+  background-color: #382037;
+}
+.program_img {
+  display: block !important;
+}
+.program_img_small {
+  display: none !important;
+}
+@media (max-width: 450px) {
+  .program_img {
+    display: none !important;
+  }
+  .program_img_small {
+    display: block !important;
+  }
+}

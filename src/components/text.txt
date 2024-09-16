@@ -1,0 +1,54 @@
+this is my whats app code which is stick on my website at bottom right now i want to write text below my whats app icon  "Connect with Hospitality Team" import { LazyLoadImage } from "react-lazy-load-image-component"; 
+import WhatsAppIcon from "../assets/Image/whatsap.png"; // Path to your WhatsApp icon
+import "./WhatsApp.css"; // Assuming you have this file for styles
+
+const WhatsAppButton = () => {
+  return (
+    <>
+      <div className="whatsapp-button">
+        <a
+          href="https://wa.me/8800003042"
+          target="_blank"
+          rel="noopener noreferrer">
+          <LazyLoadImage
+            src={WhatsAppIcon}
+            alt="WhatsApp"
+            className="img-fluid"
+          />
+        </a>
+      </div>
+    </>
+  );
+};
+
+export default WhatsAppButton;             .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Make sure it's on top of other content */
+  background-color: transparent; /* You can adjust this to have a background color */
+}
+
+.whatsapp-button img {
+  width: 60px; /* Adjust size */
+  height: 60px; /* Adjust size */
+  border-radius: 50%; /* Make it round */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for a nice effect */
+}
+
+.whatsapp-button a {
+  display: block;
+}
+
+.whatsapp-button img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  transition: transform 0.3s ease;
+}
+.whats {
+  color: white;
+}
+.montaga-regulars {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,66 @@
+.header_main {
+  /* background-color: #fffce6; */
+  background-color: #382037;
+  height: 10vh;
+  color: white !important;
+}
+
+.montaga-regulars {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header__text {
+  color: white !important;
+}
+.link_text {
+  color: white;
+  transition: all 0.4s ease;
+}
+.link_text:hover {
+  border-radius: 15px;
+  background-color: #382037;
+  padding: 5px 8px;
+  border: 1px solid #ffe1a6;
+  transform: scale(1.05); /* Slightly scale up the element */
+}
+
+/* Style for dropdown title */
+.navbar-nav .nav-link.dropdown-toggle {
+  color: white !important;
+}
+
+/* Style for dropdown menu background and text */
+.dropdown-menu {
+  background-color: #382037 !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white !important;
+}
+
+/* Add hover effects if needed */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #543354 !important;
+  color: #ffffff !important;
+}
+
+/* Make the hamburger icon white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Optional: Customize the background of the toggle button if needed */
+.navbar-toggler {
+  border-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Optional: Change the border color */
+}
+@media (max-width: 760px) {
+  .header_main {
+    height: fit-content;
+  }
+}
