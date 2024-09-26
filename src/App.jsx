@@ -34,8 +34,8 @@ function App() {
   return (
     <>
       {/* <Try /> */}
-      {/* <Header /> */}
-      <Headers />
+      <Header />
+      {/* <Headers /> */}
       <CarouselEffect />
       <Main />
       <Rsvp />

@@ -227,12 +227,14 @@ const Rsvp = () => {
     <div id="rsvp">
       <div className="rsvp">
         <div className="rsvp__content">
-          <h3 className="montaga-regulars ">RSVP</h3>
-          <p className="montaga-regulars">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. 
+          <h3 className="montaga-regulars">RSVP</h3>
+          <h4 className="montaga-regulars text-center">
+            Let’s Create Memories Together in Udaipur
+          </h4>
+          <p className="montaga-regulars ">
+            Your blessing them in person would be the most cherished moment for
+            Gayatri & Ranvir. Join us as they tie the knot in the enchanting
+            city of Udaipur
           </p>
         </div>
       </div>
