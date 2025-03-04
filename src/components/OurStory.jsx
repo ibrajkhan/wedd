@@ -9,12 +9,13 @@ import "./story.css";
 import imgGr from "../assets/Image/Group.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import WhatsAppButton from "./WhatsAppButton";
+import Headers from "./Headers";
 
 const OurStory = () => {
   return (
     <div id="story">
-      <Header />
-
+      {/* <Header /> */}
+      <Headers />
       <div className="story-row px-4">
         <div className="imgjj">
           <div>

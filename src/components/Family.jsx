@@ -3,11 +3,13 @@ import Header from "./Header";
 import Button from "react-bootstrap/Button";
 import "./Family.css";
 import WhatsAppButton from "./WhatsAppButton";
+import Headers from "./Headers";
 
 const Family = () => {
   return (
     <div className="Family">
-      <Header />
+      {/* <Header /> */}
+      <Headers />
       <Container id="familyC">
         <Row className="content_family text-center">
           <Col className="">

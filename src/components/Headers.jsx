@@ -8,18 +8,44 @@ import "./Head.css";
 import { FaBars, FaTimes } from "react-icons/fa"; // Import icons
 
 function Headers() {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
   const [menuOpen, setMenuOpen] = useState(false);
+  const [navbarBackground, setNavbarBackground] = useState("transparent");
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen); // Toggle menu state
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScrollPosition(position);
+
+      if (position > 50) {
+        setNavbarBackground("#382037"); // Change to red background when scrolled past 50px
+      } else {
+        setNavbarBackground("transparent"); // Transparent background at top
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
       fixed="top"
+      style={{
+        backgroundColor: navbarBackground,
+        transition: "background-color 0.3s ease",
+      }}
       className="header_main montaga-regulars">
       <Container>
         {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}

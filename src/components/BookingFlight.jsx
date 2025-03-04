@@ -13,6 +13,7 @@ import "./Booking.css";
 
 import withReactContent from "sweetalert2-react-content";
 import WhatsAppButton from "./WhatsAppButton";
+import Headers from "./Headers";
 
 const BookingFlight = () => {
   const [loading, setLoading] = useState(false);
@@ -221,7 +222,8 @@ const BookingFlight = () => {
 
   return (
     <div id="flightBooking">
-      <Header />
+      {/* <Header /> */}
+      <Headers />
       <Container fluid className="booking__form">
         <h3 className="montaga-regulars">Flight Booking Form</h3>
         <Row>

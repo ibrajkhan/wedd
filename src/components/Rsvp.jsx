@@ -335,7 +335,6 @@ const Rsvp = () => {
                 </Form.Control.Feedback>
               </InputGroup>
             </Form.Group>
-
             <Form.Group
               as={Col}
               md="12"
@@ -372,7 +371,7 @@ const Rsvp = () => {
             </Form.Group>
           </Row>
 
-          <Button type="submit" className="button-sub montaga-regulars mt-2">
+          <Button ty pe="submit" className="button-sub montaga-regulars mt-2">
             {loading && (
               <Spinner
                 as="span"
